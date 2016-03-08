@@ -2,14 +2,18 @@ an authentication example using ldap3, flask and logging
 
 quick instructions
 
-1. pip install virtualenv
+1. git clone git@github.com:cerealcake/flask-ldap3.git
 
-2. virtualenv -p /usr/bin/python3 ./virtualenv
+2. cd flask-ldap3
 
-3. source ./virtualenv/bin/activate
+3. pip install virtualenv
 
-4. python setup.py develop
+4. virtualenv -p /usr/bin/python3 ./virtualenv
 
-5. flask_ldap3
+5. source ./virtualenv/bin/activate
 
-6. curl localhost:5000 --user your_username
+6. python setup.py develop
+
+7. flask_ldap3
+
+8. curl localhost:5000 --user your_username

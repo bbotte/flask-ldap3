@@ -1,0 +1,8 @@
+  #change these values to what is appropriate for your environment
+  id_name="samaccountname"
+  ldap_host="ldap.example.net"
+  ldap_port="389"
+  bind_dn="CN=ldap,CN=users,DC=ldap,DC=example,DC=net"
+  bind_pass="example_pass"
+  user_base="ou=Users,dc=ldap,dc=example,dc=net"
+
